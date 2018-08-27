@@ -11,6 +11,8 @@ You can preview what your Markdown file will look like when styles are added by 
 
 ***Q1. The above paragraph and this sentence use markdown in a few ways.  Give a brief description of anything unusual you notice.  Just enter your description on the lines below:***
 
+It uses an numbered list, but the numbers are all 1, while in the preview it shows up as 1, 2, and 3. It also takes advantages of highlighting text.
+
 ### Lists
 
 Create a numbered list of five of your favorite foods in-order from favorite to least favorite in the designated area below. Be sure to include at least two things that are made of multiple ingredients.  
@@ -19,17 +21,38 @@ For each item that has multiple ingredients, create a sub list of a few (2-5) of
 
 ***Q2. Create your list here:***
 
+1. Rice
+1. LA Galbi (Korean BBQ)
+1. BiBimBop
+1. Pasta
+  1. Noodles
+  1. Tomato Sauce
+  1. Ground Beef
+1. Salad
+  * Lettuce
+  * Balsamic Vinegar
+  * Carrots
+  * Other Vegetables
+
 ### Headings
 
 Headings and sub-headings help separate the content of a document.
 
 ***Q3. Add a new third tier heading to this document named "My Heading" here:***
 
+### My Heading
+
 ### Code
 
 Markdown is often used to document code.  Consequently, it supports embedding code within documents.
 
 ***Q4. Create a code block below and include a Java `for`-loop that prints numbers from 0 to 10. Be sure to indicate that it's Java, which will cause Java keywords to be highlighted (for example, depending on your configuration `for` may be purple in the preview window; `int` may be orange, etc.):***
+
+```Java
+for(int i = 0; i < 11; ++i) {
+  System.out.println(i);
+}
+```
 
 ## Part 2: What is IoT
 
